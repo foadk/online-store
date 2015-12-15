@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+.top {
+    height: 70px;
+    background-color: white;
+    position: relative;
+}
+
+.top .welcome {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.top .admin {
+    position: absolute;
+    /*left: 10px;*/
+    left: 0;
+    bottom: 0;
+}
+
+.top .welcome ul, .top .admin ul {
+    list-style: none;
+}
+
+.top .welcome li, .top .admin li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar {
+    border-radius: 0;
+    padding-left: 5px;
+    /*margin-bottom: 0;*/
+    /*position: relative;*/
+    min-height: 35px;
+    /*background-color: #5f5f5f;*/
+    border-bottom-style: none;
+    border: 0px;
+}
+
+.navbar .container-fluid {
+    padding-left: 4px;
+}
+
+.navbar-nav li a {
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #f1f1f1 !important;
+    /*font-size: 17px;*/
+    letter-spacing: 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-nav .active a {
+    background-color: #0F92C1 !important;
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.navbar-nav .active a:hover {
+    background-color: #0B7FA5 !important;
+}
+
+.content {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.thumbnail img {
+    max-height: 150px;
+}
+
+.thumbnail form {
+    margin-bottom: 5px;
+}
